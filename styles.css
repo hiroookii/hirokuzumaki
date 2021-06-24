@@ -80,6 +80,12 @@ footer{
   padding-bottom: 150px;
 }
 
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
 body{
 	background-color: #6E82B0;
 }
