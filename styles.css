@@ -78,10 +78,6 @@ footer{
   padding-bottom: 420px;
 }
 
-html, body {
-    min-height: 100%;
-}
-
 body{
 	background-color: #6E82B0;
 }
