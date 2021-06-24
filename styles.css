@@ -78,6 +78,10 @@ footer{
   padding-bottom: 150px;
 }
 
+-webkit-scrollbar {
+	display: none;
+  }
+
 body{ 
 	background-color: #6E82B0;
 }
