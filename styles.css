@@ -78,9 +78,7 @@ footer{
   padding-bottom: 150px;
 }
 
-body{
-	min-height: 200vh;
-    max-width: 800px;
+body{ 
 	background-color: #6E82B0;
 }
 
