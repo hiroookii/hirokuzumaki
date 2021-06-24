@@ -78,7 +78,7 @@ footer{
   padding-bottom: 150px;
 }
 
-html, body{
+html{
     max-width: 100%;
     overflow-x: hidden;
 }
