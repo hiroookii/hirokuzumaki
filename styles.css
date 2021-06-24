@@ -9,7 +9,7 @@ div#content div{
 }
 
 div#content div.leftbox{
-	vertical-align: top:
+	vertical-align: top;
 }
 
 div#content div h1, p, img, iframe{
@@ -17,6 +17,7 @@ div#content div h1, p, img, iframe{
 }
 
 div#content div.rightbox{
+	vertical-align: top;
 }
 
 div#content div.annonce{
