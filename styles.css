@@ -77,8 +77,12 @@ footer{
   margin: -10px -10px;
   padding-bottom: 150px;
 }
-body{ 
+
+.x-scroll-disabled {
 	overflow-x: hidden;
+}
+
+body{ 
 	background-color: #6E82B0;
 }
 
