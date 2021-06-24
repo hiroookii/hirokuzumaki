@@ -55,6 +55,7 @@ div.annonce img{
 header{
   background: #455886;
   position: relative;
+  right: -50px;
   width: 2025px;
   border: 1px solid #ccc;
   border-radius: 0px;
