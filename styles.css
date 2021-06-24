@@ -78,6 +78,11 @@ footer{
   padding-bottom: 150px;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{ 
 	background-color: #6E82B0;
 }
