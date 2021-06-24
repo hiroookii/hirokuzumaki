@@ -88,7 +88,7 @@ html, body{
 }
 
 body{ 
-	display: block;
+	display: contents;
 	margin: 80px;
 	background-color: #6E82B0;
 }
