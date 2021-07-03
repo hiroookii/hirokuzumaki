@@ -1,13 +1,4 @@
 
-div 
-  {
-    width:500px;
-	height:500px;
-	background-color:green;
-	text-align:center;
-  }
-  span { font-size:270pt; }
-
 div#content div{
 	display: inline-block;
 	width: 49%;
