@@ -46,6 +46,31 @@
 		
 		</header>
 			
+	 <script type="text/javascript">
+   var click = 0;
+   function ClickCounter()
+   {
+     // click = click + 1; 
+	 // click++; 
+	 click+=3;
+	 document.getElementById('count').innerHTML = click;
+   }
+  </script>
+  <style type="text/css">
+  div 
+  {
+    width:500px;
+	height:500px;
+	background-color:green;
+	text-align:center;
+  }
+  span { font-size:270pt; }
+  </style>
+</head>
+<body>
+<div onclick="ClickCounter()"><span id="count"></span></div>
+</body>  
+	
 		<!-- Pied de Page -->
 		<footer> 
 		
