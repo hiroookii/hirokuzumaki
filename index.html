@@ -46,31 +46,39 @@
 		
 		</header>
 			
-	 <script type="text/javascript">
-   var click = 0;
-   function ClickCounter()
-   {
-     // click = click + 1; 
-	 // click++; 
-	 click+=3;
-	 document.getElementById('count').innerHTML = click;
-   }
-  </script>
-  <style type="text/css">
-  div 
-  {
-    width:500px;
-	height:500px;
-	background-color:green;
-	text-align:center;
-  }
-  span { font-size:270pt; }
-  </style>
-</head>
+  <script>
+      let compteur = 0;
+      function suivant(){
+          compteur = compteur + 1;
+          let v = document.getElementById("valeur");
+          if (compteur <= 1) {
+            v.innerHTML = compteur + " clic";
+          }
+          else {
+            v.innerHTML = compteur + " clics";
+          }
+          
+      }
+      function reinitialiser(){
+          compteur = 0;
+          let v = document.getElementById("valeur");
+          v.innerHTML = compteur + " clic";
+      }
+ </script>
+   </head>
 <body>
-<div onclick="ClickCounter()"><span id="count"></span></div>
-</body>  
-	
+
+
+  <h1>Compteur de clics en Javascript </h1>
+
+    <button onclick="suivant();">Clic !</button>
+    <br>
+    <span id="valeur">0</span>
+    <br>
+    <button onclick="reinitialiser();">Réinitialiser !</button>
+ 
+</body>
+</head>
 		<!-- Pied de Page -->
 		<footer> 
 		
