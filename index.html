@@ -46,39 +46,6 @@
 		
 		</header>
 			
-  <script>
-      let compteur = 0;
-      function suivant(){
-          compteur = compteur + 1;
-          let v = document.getElementById("valeur");
-          if (compteur <= 1) {
-            v.innerHTML = compteur + " clic";
-          }
-          else {
-            v.innerHTML = compteur + " clics";
-          }
-          
-      }
-      function reinitialiser(){
-          compteur = 0;
-          let v = document.getElementById("valeur");
-          v.innerHTML = compteur + " clic";
-      }
- </script>
-   </head>
-<body>
-
-
-  <h1>Compteur de clics en Javascript </h1>
-
-    <button onclick="suivant();">Clic !</button>
-    <br>
-    <span id="valeur">0</span>
-    <br>
-    <button onclick="reinitialiser();">Réinitialiser !</button>
- 
-</body>
-</head>
 		<!-- Pied de Page -->
 		<footer> 
 		
